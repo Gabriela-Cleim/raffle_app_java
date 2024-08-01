@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 int random = new Random().nextInt(10);
-                textView.setText(String.valueOf(random));
+                textView.setText("Numero sorteado: ".concat(String.valueOf(random)));
             }
         });
     }
